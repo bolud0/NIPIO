@@ -1,0 +1,26 @@
+{
+  "expo": {
+      "sdkVersion": "23.0.0",
+      "orientation": "portrait",
+      "notification":{
+        "androidMode": "collapse",
+        "androidCollapsedTitle":"#{unread_notifications} new messages"
+      },
+    "android":{
+      "package": "com.safetyinnova.nipio"
+    },
+    "icon": "./images/assets/iconNipio.png",
+    "splash": {
+        "image": "./images/assets/splashNipio.png",
+        "primaryColor": "#ffffff",
+        "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
